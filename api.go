@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"github.com/dollopofsunshine/cf_exer1"
+	"github.com/gorilla/mux"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {
